@@ -17,7 +17,3 @@ public class TestNGCucumberRunner extends AbstractTestNGCucumberTests {
         return super.scenarios();
     }
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master

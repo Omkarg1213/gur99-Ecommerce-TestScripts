@@ -54,7 +54,4 @@ public class MobileSortingPage {
     }
 
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master

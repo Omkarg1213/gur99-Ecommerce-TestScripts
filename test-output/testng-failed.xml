@@ -6,11 +6,7 @@
       <class name="guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner">
         <methods>
           <include name="setUpClass"/>
-<<<<<<< HEAD
-          <include name="runScenario" invocation-numbers="0 1"/>
-=======
-          <include name="runScenario" invocation-numbers="1 2 3"/>
->>>>>>> origin/master
+          <include name="runScenario" invocation-numbers="1 4"/>
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner -->

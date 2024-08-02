@@ -56,8 +56,3 @@ public class DriverFactory {
     }
 }
 
-
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master

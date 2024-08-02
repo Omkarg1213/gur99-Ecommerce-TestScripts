@@ -7,7 +7,6 @@ import org.openqa.selenium.support.ui.Select;
 
 public class WishlistPage {
 	WebDriver driver;
-	private By myAccountLink = By.linkText("My Account");
     private By createAccountLink = By.xpath("//a[@title=\"Create an Account\"]");
     private By firstNameField = By.id("firstname"); 
     private By middleNameField = By.id("middlename");
@@ -29,10 +28,6 @@ public class WishlistPage {
 
 	public WishlistPage(WebDriver driver) {
 		this.driver = driver;
-	}
-
-	public void clickMyAccountLink() {
-		driver.findElement(myAccountLink).click();
 	}
 
 	public void clickCreateAccountLink() {

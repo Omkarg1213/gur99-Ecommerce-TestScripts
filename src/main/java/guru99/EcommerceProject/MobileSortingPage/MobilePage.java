@@ -13,6 +13,7 @@ public class MobilePage {
     WebDriver driver;
     WebDriverWait wait;
     By mobileMenu = By.xpath("(//a[@class='level0 '])[1]");
+    private By myAccountLink = By.xpath("(//a[@title=\"My Account\"])[2]");
     By sonyXperiaPrice = By.xpath("(//span[@class=\"price\"])[4]");
     public static By sonyXperiaLink = By.xpath("//img[@alt=\"Xperia\"]");
     public static By addToCart = By.xpath("//button[@title='Add to Cart']");
@@ -29,6 +30,10 @@ public class MobilePage {
     public void navigateToMobilePage() {
         driver.findElement(mobileMenu).click();
     }
+    
+    public void clickMyAccountLink() {
+		driver.findElement(myAccountLink).click();
+	}
 
     public String getSonyXperiaPriceOnListPage() {
         return driver.findElement(sonyXperiaPrice).getText();

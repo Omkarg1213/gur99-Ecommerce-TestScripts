@@ -55,19 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<<<<<<< HEAD
-<td>Tests passed/Failed/Skipped:</td><td>2/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Aug 01 20:15:06 IST 2024</td>
+<td>Started on:</td><td>Fri Aug 02 12:56:38 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>195 seconds (195513 ms)</td>
-=======
-<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
-</tr><tr>
-<td>Started on:</td><td>Thu Aug 01 14:51:16 IST 2024</td>
-</tr>
-<tr><td>Total time:</td><td>17 seconds (17905 ms)</td>
->>>>>>> origin/master
+<tr><td>Total time:</td><td>43 seconds (43970 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,222 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<<<<<<< HEAD
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner.runScenario()'><b>runScenario</b><br>Test class: guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Sort mobile products by name", "Optional[Mobile Sorting and Price Verification]"</td>
-<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: chrome=127.0.6533.74)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [637a48e958c26f9e6c6ce6331cadf8e3, clickElement {id=f.30CC132B5DA51573A2957BD55143996B.d.A3CC8341420F1710963194E618AEB75C.e.25}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.74, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\OMKARG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50246}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50246/devtoo..., se:cdpVersion: 127.0.6533.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (637a48e958c26f9e6c6ce6331cadf8e3)] -&gt; xpath: (//a[@class=&apos;level0 &apos;])[1]]
-Session ID: 637a48e958c26f9e6c6ce6331cadf8e3
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at guru99.EcommerceProject.MobileSortingPage.MobilePage.navigateToMobilePage(MobilePage.java:30)
-	at guru99.EcommerceProject.TestSteps.VerifyMobileSteps.i_navigate_to_the_mobile_page(VerifyMobileSteps.java:59)
-	at ✽.I navigate to the mobile page(file:///C:/Users/Omkar%20G/Documents/workspace-spring-tool-suite-4-4.21.0.RELEASE/guru99-EcommerceProject/src/test/resources/Features/verify_mobile_sorting.feature:6)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1430448242", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1430448242'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: chrome=127.0.6533.74)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [637a48e958c26f9e6c6ce6331cadf8e3, clickElement {id=f.30CC132B5DA51573A2957BD55143996B.d.A3CC8341420F1710963194E618AEB75C.e.25}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.74, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\OMKARG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50246}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50246/devtoo..., se:cdpVersion: 127.0.6533.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (637a48e958c26f9e6c6ce6331cadf8e3)] -&gt; xpath: (//a[@class=&apos;level0 &apos;])[1]]
-Session ID: 637a48e958c26f9e6c6ce6331cadf8e3
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at guru99.EcommerceProject.MobileSortingPage.MobilePage.navigateToMobilePage(MobilePage.java:30)
-	at guru99.EcommerceProject.TestSteps.VerifyMobileSteps.i_navigate_to_the_mobile_page(VerifyMobileSteps.java:59)
-	at ✽.I navigate to the mobile page(file:///C:/Users/Omkar%20G/Documents/workspace-spring-tool-suite-4-4.21.0.RELEASE/guru99-EcommerceProject/src/test/resources/Features/verify_mobile_sorting.feature:6)
-</pre></div></td>
-<td>25</td>
-<td>guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner@31ea9581</td></tr>
-<tr>
-<td title='guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner.runScenario()'><b>runScenario</b><br>Test class: guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Compare price of Sony Xperia on list and detail pages", "Optional[Mobile Sorting and Price Verification]"</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [637a48e958c26f9e6c6ce6331cadf8e3, getElementText {id=f.30CC132B5DA51573A2957BD55143996B.d.CEE9F50A5DC62B26D20F1B9E07AE94EE.e.97}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.74, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\OMKARG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50246}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50246/devtoo..., se:cdpVersion: 127.0.6533.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (637a48e958c26f9e6c6ce6331cadf8e3)] -&gt; xpath: (//span[@class=&quot;price&quot;])[4]]
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:403)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:359)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
-	at guru99.EcommerceProject.MobileSortingPage.MobilePage.getSonyXperiaPriceOnListPage(MobilePage.java:34)
-	at guru99.EcommerceProject.TestSteps.VerifyMobileSteps.i_read_the_cost_of_sony_xperia_mobile_on_the_list_page(VerifyMobileSteps.java:76)
-	at ✽.I read the cost of Sony Xperia mobile on the list page(file:///C:/Users/Omkar%20G/Documents/workspace-spring-tool-suite-4-4.21.0.RELEASE/guru99-EcommerceProject/src/test/resources/Features/verify_mobile_sorting.feature:14)
-Caused by: java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:386)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:359)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
-	at guru99.EcommerceProject.MobileSortingPage.MobilePage.getSonyXperiaPriceOnListPage(MobilePage.java:34)
-	at guru99.EcommerceProject.TestSteps.VerifyMobileSteps.i_read_the_cost_of_sony_xperia_mobile_on_the_list_page(VerifyMobileSteps.java:76)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:95)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1540418199", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1540418199'><pre>org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [637a48e958c26f9e6c6ce6331cadf8e3, getElementText {id=f.30CC132B5DA51573A2957BD55143996B.d.CEE9F50A5DC62B26D20F1B9E07AE94EE.e.97}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.74, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\OMKARG~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50246}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50246/devtoo..., se:cdpVersion: 127.0.6533.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (637a48e958c26f9e6c6ce6331cadf8e3)] -&gt; xpath: (//span[@class=&quot;price&quot;])[4]]
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:403)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:359)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
-	at guru99.EcommerceProject.MobileSortingPage.MobilePage.getSonyXperiaPriceOnListPage(MobilePage.java:34)
-	at guru99.EcommerceProject.TestSteps.VerifyMobileSteps.i_read_the_cost_of_sony_xperia_mobile_on_the_list_page(VerifyMobileSteps.java:76)
-	at ✽.I read the cost of Sony Xperia mobile on the list page(file:///C:/Users/Omkar%20G/Documents/workspace-spring-tool-suite-4-4.21.0.RELEASE/guru99-EcommerceProject/src/test/resources/Features/verify_mobile_sorting.feature:14)
-Caused by: java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:386)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:359)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
-	at guru99.EcommerceProject.MobileSortingPage.MobilePage.getSonyXperiaPriceOnListPage(MobilePage.java:34)
-	at guru99.EcommerceProject.TestSteps.VerifyMobileSteps.i_read_the_cost_of_sony_xperia_mobile_on_the_list_page(VerifyMobileSteps.java:76)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:95)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-</pre></div></td>
-<td>195</td>
-<td>guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner@31ea9581</td></tr>
-</table><p>
-=======
->>>>>>> origin/master
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -300,34 +76,29 @@ Caused by: java.util.concurrent.TimeoutException
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<<<<<<< HEAD
-<td title='guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner.runScenario()'><b>runScenario</b><br>Test class: guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify error message for invalid quantity and empty cart", "Optional[Mobile Sorting and Price Verification]"</td>
-<td></td>
-<td>36</td>
-=======
 <td title='guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner.runScenario()'><b>runScenario</b><br>Test class: guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Sort mobile products by name", "Optional[Mobile Sorting and Price Verification]"</td>
 <td></td>
-<td>11</td>
-<td>guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner@31ea9581</td></tr>
-<tr>
-<td title='guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner.runScenario()'><b>runScenario</b><br>Test class: guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify error message for invalid quantity and empty cart", "Optional[Mobile Sorting and Price Verification]"</td>
-<td></td>
-<td>17</td>
-<td>guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner@31ea9581</td></tr>
-<tr>
-<td title='guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner.runScenario()'><b>runScenario</b><br>Test class: guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Compare price of Sony Xperia on list and detail pages", "Optional[Mobile Sorting and Price Verification]"</td>
-<td></td>
-<td>12</td>
->>>>>>> origin/master
+<td>13</td>
 <td>guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner@31ea9581</td></tr>
 <tr>
 <td title='guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner.runScenario()'><b>runScenario</b><br>Test class: guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Compare two mobile products", "Optional[Mobile Sorting and Price Verification]"</td>
 <td></td>
-<<<<<<< HEAD
-<td>30</td>
-=======
-<td>14</td>
->>>>>>> origin/master
+<td>20</td>
+<td>guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner@31ea9581</td></tr>
+<tr>
+<td title='guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner.runScenario()'><b>runScenario</b><br>Test class: guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Compare price of Sony Xperia on list and detail pages", "Optional[Mobile Sorting and Price Verification]"</td>
+<td></td>
+<td>19</td>
+<td>guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner@31ea9581</td></tr>
+<tr>
+<td title='guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner.runScenario()'><b>runScenario</b><br>Test class: guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify error message for invalid quantity and empty cart", "Optional[Mobile Sorting and Price Verification]"</td>
+<td></td>
+<td>28</td>
+<td>guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner@31ea9581</td></tr>
+<tr>
+<td title='guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner.runScenario()'><b>runScenario</b><br>Test class: guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Register a new user and share a wishlist", "Optional[Mobile Sorting and Price Verification]"</td>
+<td></td>
+<td>43</td>
 <td>guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner@31ea9581</td></tr>
 </table><p>
 </body>
