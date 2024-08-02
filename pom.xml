@@ -1,7 +1,12 @@
 <project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+<<<<<<< HEAD
   <groupId>guru99-EcommerceProject</groupId>
   <artifactId>guru99-EcommerceProject</artifactId>
+=======
+  <groupId>Guru99</groupId>
+  <artifactId>guru99.EcommerceProject</artifactId>
+>>>>>>> origin/master
   <version>0.0.1-SNAPSHOT</version>
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
@@ -96,4 +101,8 @@
       <version>2.6.12</version>
     </dependency>
   </dependencies>
+<<<<<<< HEAD
 </project>
+=======
+</project>
+>>>>>>> origin/master

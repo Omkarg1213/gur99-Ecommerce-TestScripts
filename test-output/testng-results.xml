@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
   <suite started-at="2024-08-01T20:15:06 IST" name="Default suite" finished-at="2024-08-01T20:18:21 IST" duration-ms="195513">
+=======
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-01T14:51:16 IST" name="Default suite" finished-at="2024-08-01T14:51:34 IST" duration-ms="17905">
+>>>>>>> origin/master
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner@31ea9581]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
+<<<<<<< HEAD
     <test started-at="2024-08-01T20:15:06 IST" name="Default test" finished-at="2024-08-01T20:18:21 IST" duration-ms="195513">
       <class name="guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner">
         <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner@31ea9581]" started-at="2024-08-01T20:15:06 IST" name="setUpClass" finished-at="2024-08-01T20:15:06 IST" duration-ms="256" status="PASS">
@@ -15,17 +23,34 @@
             <param index="0">
               <value>
                 <![CDATA[org.testng.TestRunner@47a5b70d]]>
+=======
+    <test started-at="2024-08-01T14:51:16 IST" name="Default test" finished-at="2024-08-01T14:51:34 IST" duration-ms="17905">
+      <class name="guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner@31ea9581]" started-at="2024-08-01T14:51:16 IST" name="setUpClass" finished-at="2024-08-01T14:51:16 IST" duration-ms="167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3f390d63]]>
+>>>>>>> origin/master
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner@31ea9581]" started-at="2024-08-01T20:15:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-01T20:15:36 IST" duration-ms="30100" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA["Compare two mobile products"]]>
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner@31ea9581]" started-at="2024-08-01T14:51:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-01T14:51:27 IST" duration-ms="11123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sort mobile products by name"]]>
+>>>>>>> origin/master
               </value>
             </param>
             <param index="1">
@@ -37,6 +62,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner@31ea9581]" started-at="2024-08-01T20:15:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-01T20:18:21 IST" duration-ms="195171" status="FAIL">
           <params>
             <param index="0">
@@ -137,6 +163,9 @@ at java.base/java.lang.Thread.run(Thread.java:840)
           </reporter-output>
         </test-method> <!-- runScenario -->
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner@31ea9581]" started-at="2024-08-01T20:15:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-01T20:15:42 IST" duration-ms="36271" status="PASS">
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner@31ea9581]" started-at="2024-08-01T14:51:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-01T14:51:34 IST" duration-ms="17690" status="PASS">
+>>>>>>> origin/master
           <params>
             <param index="0">
               <value>
@@ -152,11 +181,19 @@ at java.base/java.lang.Thread.run(Thread.java:840)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner@31ea9581]" started-at="2024-08-01T20:15:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-01T20:15:31 IST" duration-ms="25267" status="FAIL">
           <params>
             <param index="0">
               <value>
                 <![CDATA["Sort mobile products by name"]]>
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner@31ea9581]" started-at="2024-08-01T14:51:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-01T14:51:29 IST" duration-ms="12697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Compare price of Sony Xperia on list and detail pages"]]>
+>>>>>>> origin/master
               </value>
             </param>
             <param index="1">
@@ -165,6 +202,7 @@ at java.base/java.lang.Thread.run(Thread.java:840)
               </value>
             </param>
           </params>
+<<<<<<< HEAD
           <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
               <![CDATA[stale element reference: stale element not found
@@ -213,6 +251,28 @@ at ✽.I navigate to the mobile page(file:///C:/Users/Omkar%20G/Documents/worksp
           </reporter-output>
         </test-method> <!-- runScenario -->
         <test-method is-config="true" signature="tearDownClass()[pri:0, instance:guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner@31ea9581]" started-at="2024-08-01T20:18:21 IST" name="tearDownClass" finished-at="2024-08-01T20:18:21 IST" duration-ms="18" status="PASS">
+=======
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner@31ea9581]" started-at="2024-08-01T14:51:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-01T14:51:31 IST" duration-ms="14718" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Compare two mobile products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Mobile Sorting and Price Verification]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:guru99.EcommerceProject.RunnerClasses.TestNGCucumberRunner@31ea9581]" started-at="2024-08-01T14:51:34 IST" name="tearDownClass" finished-at="2024-08-01T14:51:34 IST" duration-ms="13" status="PASS">
+>>>>>>> origin/master
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

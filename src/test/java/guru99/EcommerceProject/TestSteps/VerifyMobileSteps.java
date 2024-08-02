@@ -11,7 +11,10 @@ import guru99.EcommerceProject.DriveFactory.DriverFactory;
 import guru99.EcommerceProject.MobileSortingPage.MobileSortingPage;
 import guru99.EcommerceProject.MobileSortingPage.CartPage;
 import guru99.EcommerceProject.MobileSortingPage.MobilePage;
+<<<<<<< HEAD
 import guru99.EcommerceProject.MobileSortingPage.WishlistPage; // Import WishlistPage
+=======
+>>>>>>> origin/master
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
@@ -25,7 +28,10 @@ public class VerifyMobileSteps {
     private MobileSortingPage mobileSortingPage;
     private MobilePage mobilePage;
     private CartPage cartPage;
+<<<<<<< HEAD
     private WishlistPage wishlistPage; // Add WishlistPage
+=======
+>>>>>>> origin/master
     private String listPagePrice;
     private String detailPagePrice;
 
@@ -44,7 +50,10 @@ public class VerifyMobileSteps {
         mobileSortingPage = new MobileSortingPage(driver);
         mobilePage = new MobilePage(driver);
         cartPage = new CartPage(driver);
+<<<<<<< HEAD
         wishlistPage = new WishlistPage(driver); // Initialize WishlistPage
+=======
+>>>>>>> origin/master
     }
 
     @Given("I am on the homepage")
@@ -129,9 +138,15 @@ public class VerifyMobileSteps {
         softAssert.assertTrue(isCartEmpty, "The cart is not empty");
         softAssert.assertAll();
     }
+<<<<<<< HEAD
 
     @When("I add two mobiles to compare")
     public void i_add_two_mobiles_to_compare() {
+=======
+    
+    @When("I add two mobiles to compare")
+    public void i_add_two_mobiles_to_compare(){
+>>>>>>> origin/master
         mobilePage.addFirstMobileToCompare();
         mobilePage.addSecondMobileToCompare();
     }
@@ -155,6 +170,7 @@ public class VerifyMobileSteps {
         mobilePage.closeComparePopup();
     }
     
+<<<<<<< HEAD
     @When("I click on the \"My Account\" link")
     public void i_click_on_the_my_account_link() {
         wishlistPage.clickMyAccountLink(); // Implement this method in WishlistPage
@@ -221,6 +237,8 @@ public class VerifyMobileSteps {
         softAssert.assertAll();
     }
     
+=======
+>>>>>>> origin/master
     @After
     public void tearDown() {
         driver.quit();

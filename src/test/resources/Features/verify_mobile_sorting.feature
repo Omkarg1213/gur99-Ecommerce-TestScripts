@@ -1,6 +1,10 @@
 Feature: Mobile Sorting and Price Verification
 
+<<<<<<< HEAD
   @VerifyMobileSorting  
+=======
+  @VerifyMobileSorting
+>>>>>>> origin/master
   Scenario: Sort mobile products by name
     Given I am on the homepage
     When I navigate to the mobile page
