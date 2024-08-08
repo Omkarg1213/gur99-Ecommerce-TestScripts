@@ -255,7 +255,7 @@
 </ul>
 
 <h2>Author</h2>
-<p>Omkar G</p>
+<p>Documentation created by Omkar G</p>
 
 </body>
 </html>
